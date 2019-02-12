@@ -46,13 +46,14 @@ The path to the config file.  Note that if using a relative path the path should
 if your config is located in the root of the ldap-tester folder you would pass the following:
 
 ```
-./http-tester.sh --config ./config/misp.config.js
+./http-tester.sh --config ./misp.config.js
 ```
 
+> You can find sample configs in the `sample_configs` directory
 
 #### --integration (required)
 
-The name of the integration you are trying to connect.
+The name of the integration you are trying to connect to.
 
 ```
 ./http-tester.sh --config ./config/misp.config.js --integration misp
